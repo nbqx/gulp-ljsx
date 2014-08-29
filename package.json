@@ -1,0 +1,26 @@
+{
+  "name": "gulp-ljsx",
+  "description": "ljsx plugin for gulp",
+  "version": "0.0.0",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/gulp-ljsx.git"
+  },
+  "homepage": "https://github.com/nbqx/gulp-ljsx",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "defaults": "^1.0.0",
+    "gulp-util": "^3.0.0",
+    "ljsx": "git://github.com/nbqx/ljsx.git",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "tap-colorize": "^1.2.0",
+    "tape": "^2.13.1"
+  }
+}
